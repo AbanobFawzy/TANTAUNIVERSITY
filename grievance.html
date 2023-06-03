@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Student Services|Grievance</title>
+        <meta name="describtion" content="هذا الموقع لعمل التظلمات |الشكاوي |الاقتراحات"/>
+        <meta name="keyword" content=" تظلمات , شكاوي ,اقتراحات , علوم طنطا , جامعه طنطا ">
+        <link rel="stylesheet" href="grie.css">
+    </head>
+    <body>
+        <div class="background"></div>    
+        <div class="cont">   
+            <span> Grievance Form
+                <hr>
+            </span>
+            <form action="TheGrievance.php" method="post"> 
+             <input type="email" class="inp" required name="email">Student E-mail</input>
+             <input type="text" class="inp" required name="name">Student name</input>        
+             <br>
+                <div class="xe">
+                 <input type="text" class="x" required name="national_id"> ID </input>
+                 <input type="text" class="x" required name="level"> Level </input>
+                 <input type="text" class="x" required name="section"> Section</input>
+                </div>
+             <br>
+             <input type="text" class="y" required name="course_name">Course Name</input> 
+             <input type="text" class="y"required name="course_code">Course code </input> 
+             <br>
+             <input type="submit" class="send" value="send" ></input>
+            </form> 
+        </div>
+        <div class="list">
+            <ul>
+                <li class="reco" >Grievance</li>
+                <li class="back"><a href="index.html">Back </a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="https://tdb.tanta.edu.eg/ors/Default.aspx">
+            <img src="logo.jpg">
+            </a>
+        </div>
+    </body>
+</html>
